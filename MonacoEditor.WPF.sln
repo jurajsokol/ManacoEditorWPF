@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35309.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonacoEditor.WPF", "MonacoEditor.WPF\MonacoEditor.WPF.csproj", "{621DA3F4-601C-4099-AA38-BACDFE7F78E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonacoEditor.SampleApp", "MonacoEditor.SampleApp\MonacoEditor.SampleApp.csproj", "{7D812C2E-C053-41EC-B628-932066E141B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{621DA3F4-601C-4099-AA38-BACDFE7F78E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{621DA3F4-601C-4099-AA38-BACDFE7F78E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{621DA3F4-601C-4099-AA38-BACDFE7F78E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{621DA3F4-601C-4099-AA38-BACDFE7F78E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D812C2E-C053-41EC-B628-932066E141B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D812C2E-C053-41EC-B628-932066E141B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D812C2E-C053-41EC-B628-932066E141B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D812C2E-C053-41EC-B628-932066E141B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {011EA494-79B4-432B-906F-0A13166D9620}
+	EndGlobalSection
+EndGlobal
