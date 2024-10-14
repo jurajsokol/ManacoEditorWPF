@@ -30,9 +30,14 @@
                     Click="LoadButton_Click"/>
             <Button Content="Save"
                     Click="SaveButton_Click"/>
+            <ToggleButton IsChecked="{Binding IsDarkTheme}"
+                          Content="Theme"
+                          Margin="5"
+                          Padding="5"/>
         </StackPanel>
         <editor:MonacoEditor Text="{Binding Text, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnSourceUpdated=True, NotifyOnTargetUpdated=True }"
                              x:Name="MonacoEditor"
+                             Theme="{Binding MonacoTheme}"
                              Grid.Row="1"/>
     </Grid>
 </Window>
